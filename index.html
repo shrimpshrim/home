@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LukaLegendsHQ - 홈</title>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0072c6;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header img {
+            max-height: 50px; /* 로고의 최대 높이 조절 */
+        }
+
+        nav {
+            background-color: #004080;
+            color: #ffffff;
+            padding: 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="1.jpg" alt="LukaLegendsHQ 로고">
+        <h1>LukaLegendsHQ</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#news" onclick="scrollToSection('news')">최신 뉴스</a></li>
+            <li><a href="#team-profile" onclick="scrollToSection('team-profile')">팀 소개</a></li>
+            <li><a href="#fan-community" onclick="scrollToSection('fan-community')">팬 커뮤니티</a></li>
+        </ul>
+    </nav>
+
+    <section id="news">
+        <h2>최신 뉴스</h2>
+        <article>
+            <h3>델라스 매버릭스, 새로운 시즌에 도전</h3>
+            <p>2023년 11월 1일 - 델라스 매버릭스가 새로운 NBA 시즌에 임하는 소식입니다. 기대하시죠!</p>
+        </article>
+        <article>
+            <h3>루카 돈치치, 역대급 경기 기록</h3>
+            <p>2023년 11월 5일 - 루카 돈치치가 역대급의 경기 기록을 세우며 팬들을 놀라게 했습니다.</p>
+        </article>
+        <p>여기에 최신 뉴스와 업데이트를 추가하세요.</p>
+    </section>
+
+    <section id="team-profile">
+        <h2>팀 소개</h2>
+        <p>델라스 매버릭스(Dallas Mavericks)는 미국 텍사스 주 다라스를 기반으로 하는 프로 농구 팀입니다. NBA(미국 프로 농구) 소속으로 1980년에 창단되었으며, 현재까지 많은 성과를 이루어내고 있습니다.</p>
+    
+        <h3>주요 선수</h3>
+        <ul>
+            <li>루카 돈치치 (Luka Dončić) - 현대 농구계의 주목받는 슈퍼스타 중 하나로 꼽히는 슬로베니아 출신의 농구선수입니다.</li>
+            <li>크리스탑스 프로징기스 (Kristaps Porziņģis) - 농구의 다양한 포지션에서 뛸 수 있는 라티비아 출신의 스타 선수입니다.</li>
+            <li>덕 노비치츠키 (Dirk Nowitzki) - 델라스 매버릭스의 전설적인 선수로서 NBA 역사상 최고의 플레이어 중 하나로 꼽히는 독일 출신의 농구 선수입니다.</li>
+            <!-- 추가적인 선수 정보를 원하는 만큼 추가하세요. -->
+        </ul>
+        
+        <h3>역사적 성과</h3>
+        <p>델라스 매버릭스는 수많은 플레이오프 출전과 NBA 챔피언십 경험을 보유하고 있으며, 특히 2010년에는 NBA 챔피언십을 차지한 기념비적인 순간이 있습니다.</p>
+    </section>
+        <p>델라스 매버릭스 팀에 관한 섹션입니다.</p>
+    </section>
+
+    <section id="fan-community">
+        <h2>팬 커뮤니티</h2>
+        <p>여기는 팬들끼리 소통하는 공간입니다.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 LukaLegendsHQ. All rights reserved. | <a href="http:// LukaLegendsHQ.com"> LukaLegendsHQ.com</a></p>
+    </footer>
+            ">your-domain.com</a></p>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+</body>
+</html>
